@@ -1,0 +1,146 @@
+body{
+    margin: 100px;
+    background-color: lightslategray
+}
+
+.grid_container{
+    display: grid;
+    /*Creating columns*/
+    grid-template-columns: auto auto auto auto;
+
+    /* Creating spaces between item or blocks */
+    grid-gap: 3px;
+    /* background-color: lightgray; */
+    color: white;
+    /* width: 400px; */
+    height: 600px;
+}
+
+.grid_container > div {
+     background-color: black;
+     text-align: center;
+     padding: 20px 0;
+     font-size: 24px;
+}
+
+.item_1{
+    background-image: url(../img/ashton.jpg);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    
+}
+
+.item_2{
+    background-image: url(../img/daniel.jpg);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item_3{
+    background-image: url(../img/evan.jpg);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+.item_4{
+    background-image: url(../img/john-paul.jpg);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: 250px;
+}
+
+.item_5{
+    background-image: url(../img/gedeon.jpg);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-size: 100%;
+    /* height: 250px; */
+}
+
+.item_6{
+    background-image: url(../img/gcobisa.jpg);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-size: 100%;
+    /* height: 250px; */
+}
+
+.item_7{
+    background-image: url(../img/sheldon.jpg);
+}
+
+.item_8{
+    background-image: url(../img/shanton.jpg);
+}
+
+.item_9{
+    background-image: url(../img/kaylem.jpg);
+}
+
+.item_10{
+    background-image: url(../img/litha.jpg);
+}
+
+.item_11{
+    background-image: url(../img/zainab.jpg);
+}
+
+.item_12{
+    background-image: url(../img/tyrone.jpg);
+}
+
+.item_13{
+    background-image: url(../img/urick.jpg);
+}
+
+.item_14{
+    background-image: url(../img/warnita.jpg);  
+}
+
+.item_15{
+    background-image: url(../img/taufeeq.jpg);
+}
+
+.item_16{
+    background-image: url(../img/shakeel.jpg);
+}
+
+.item_17{
+    background-image: url(../img/taariq.jpg);
+}
+
+.item_18{
+    background-image: url(../img/miguel.jpg); 
+}
+
+.item_19{
+    background-image: url(../img/natheer.jpg);
+}
+
+.item_20{
+    background-image: url(../img/marlon.jpg);
+}
+
+.item_21{
+    background-image: url(../img/micheal.jpg);
+}
+
+.item_22{
+    background-image: url(../img/jessie.jpeg);
+}
+
+.item_23{
+    background-image: url(../img/josh.png);
+}
+
+.item_24{
+    background-image: url(../img/reagan.JPG);
+}
